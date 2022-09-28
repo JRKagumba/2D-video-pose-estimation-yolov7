@@ -143,6 +143,7 @@ def detect(opt):
                 fps = 1/(currentTime - startTime)
                 startTime =  currentTime
                 cv2.putText(im0, "FPS : " + str(int(fps)), (20,70), cv2.FONT_HERSHEY_SIMPLEX, 2, (238,239,249), 2)
+                cv2.line(im0, (100, 200), (100, 100), (255, 255, 255), 30)
             # Stream results
             if view_img:
                 cv2.imshow(str(p), im0)

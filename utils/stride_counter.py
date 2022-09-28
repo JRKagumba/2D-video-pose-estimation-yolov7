@@ -1,5 +1,9 @@
 import math
 import cv2
+import numpy as np
+
+from PIL import ImageFont, ImageDraw, Image
+
 
 def findAngle(image, kpts, p1,p2,p3, draw= True):
     """
@@ -39,3 +43,65 @@ def findAngle(image, kpts, p1,p2,p3, draw= True):
 
     return int(angle)
 
+
+def rename_this_function(output):
+    """
+    Goal of this function:
+    Take in an out
+
+    """
+
+    bcount = 0
+    direction = 0
+
+
+    fontpath = "sfpro.ttf"
+    font = ImageFont.truetype(fontpath, 32)
+    font1 = ImageFont.truetype(fontpath, 160)
+
+
+        for idx in range(output.shape[0]):
+            kpts = output[idx, 7:].T
+            # Right arm =(5,7,9), left arm = (6,8,10)
+            # set draw=True to draw the arm keypoints.
+            angle = findAngle(img, kpts, 5, 7, 9, draw=False)
+            percentage = np.interp(angle, (10, 150), (100, 0))
+            bar = np.interp(angle, (20, 150), (200, fh-100))
+
+            color = (254, 118, 136)
+            # check for the bicep curls
+            if percentage == 100:
+                if direction == 0:
+                    bcount += 0.5
+                    direction = 1
+            if percentage == 0:
+                if direction == 1:
+                    bcount += 0.5
+                    direction = 0
+
+            # draw Bar and counter
+            cv2.line(img, (100, 200), (100, fh-100),
+                        (255, 255, 255), 30)
+            cv2.line(img, (100, int(bar)),
+                        (100, fh-100), color, 30)
+
+            if (int(percentage) < 10):
+                cv2.line(img, (155, int(bar)),
+                            (190, int(bar)), (254, 118, 136), 40)
+            elif (int(percentage) >= 10 and (int(percentage) < 100)):
+                cv2.line(img, (155, int(bar)),
+                            (200, int(bar)), (254, 118, 136), 40)
+            else:
+                cv2.line(img, (155, int(bar)),
+                            (210, int(bar)), (254, 118, 136), 40)
+
+            im = Image.fromarray(img)
+            draw = ImageDraw.Draw(im)
+            draw.rounded_rectangle((fw-280, (fh//2)-100, fw-80, (fh//2)+100), fill=color,
+                                    radius=40)
+
+            draw.text(
+                (145, int(bar)-17), f"{int(percentage)}%", font=font, fill=(255, 255, 255))
+            draw.text(
+                (fw-228, (fh//2)-101), f"{int(bcount)}", font=font1, fill=(255, 255, 255))
+            img = np.array(im)
