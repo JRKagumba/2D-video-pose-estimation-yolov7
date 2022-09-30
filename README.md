@@ -4,6 +4,10 @@
 
 Keypoint Map: 
 (5,7,9) ==> Right Arm 
+(6,8,10) ==> Left Arm
+(11,13,15) ==> Right Leg
+(12,14,16) ==> Left Leg
+
 ![keypoint_yolo](https://user-images.githubusercontent.com/63820705/192370409-6604d59a-646b-493a-ba43-e6525633c249.jpg)
 
 
