@@ -2,7 +2,9 @@
 
 "You Only Look Once" Pose Estimation
 
-Keypoint Map: ![keypoint_yolo](https://user-images.githubusercontent.com/63820705/192370409-6604d59a-646b-493a-ba43-e6525633c249.jpg)
+Keypoint Map: 
+(5,7,9) ==> Right Arm 
+![keypoint_yolo](https://user-images.githubusercontent.com/63820705/192370409-6604d59a-646b-493a-ba43-e6525633c249.jpg)
 
 
 Pose estimation implimentation is based on [YOLO-Pose](https://arxiv.org/abs/2204.06806). 
