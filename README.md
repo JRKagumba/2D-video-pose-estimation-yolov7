@@ -19,8 +19,6 @@ Visual Summary of the "On-Ground" Running Dataset is available [here](https://gi
 
 <video width="1280" height="720" controls>
   <source src="running_41.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
 </video>
 
 <video src="running_41.mp4" ></video>
