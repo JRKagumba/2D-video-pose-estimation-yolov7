@@ -14,7 +14,7 @@ This project project is an attempt at a refined version of the [NFL Combine - 2D
 
 The project uses publicly available running footage found from YouTube. At the time of writing this, the datasets consist of 29 treadmill running clips and 50 on ground running clips mainly filmed from a saggital view.  
 
-Visual Representation of the On Ground Running Dataset is available [here](https://github.com/JRKagumba/2D-video-pose-estimation-yolov7/blob/main/data/Dataset_Metrics.ipynb)
+Visual Summary of the "On-Ground" Running Dataset is available [here](https://github.com/JRKagumba/2D-video-pose-estimation-yolov7/blob/main/data/Dataset_Metrics.ipynb)
 
 
 ## About YOLOv7 Pose
