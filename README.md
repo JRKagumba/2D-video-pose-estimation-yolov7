@@ -26,7 +26,7 @@ https://user-images.githubusercontent.com/63820705/194167362-92f3f7e1-46f3-4f3c-
 
 
 
-<video src="https://user-images.githubusercontent.com/63820705/194167362-92f3f7e1-46f3-4f3c-b57a-22328bd232ff.mp4" width=180></video>
+<video src="https://user-images.githubusercontent.com/63820705/194167362-92f3f7e1-46f3-4f3c-b57a-22328bd232ff.mp4" width="50%"></video>
 
 <!-- Sample Video: https://user-images.githubusercontent.com/63820705/194164721-71b0d991-3cf0-4d6a-b49d-21bcedd6affd.mp4
 
