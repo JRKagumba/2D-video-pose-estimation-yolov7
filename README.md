@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/63820705/194169892-1ac0659f-726e-4c8d-
 
 <!-- Sample Video: https://user-images.githubusercontent.com/63820705/194164721-71b0d991-3cf0-4d6a-b49d-21bcedd6affd.mp4
 
-<video src='running_41.mp4' width=180/> | <video src='running_41.mp4' width=180/> -->
+<video src='running_41.mp4' width=180/></video> | <video src='running_41.mp4' width=180/></video> 
 
 
 ## About YOLOv7 Pose
