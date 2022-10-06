@@ -23,6 +23,10 @@ https://user-images.githubusercontent.com/63820705/194187241-1c26c3d0-6119-4638-
 
 
 
+https://user-images.githubusercontent.com/63820705/194187531-03568437-0f7f-4a5b-989f-b4d2c8bc0997.mp4
+
+
+
 ## About YOLOv7 Pose
 
 "You Only Look Once" Pose Estimation
