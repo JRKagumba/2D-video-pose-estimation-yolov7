@@ -22,8 +22,11 @@ Visual Summary of the "On-Ground" Running Dataset is available [here](https://gi
 https://user-images.githubusercontent.com/63820705/194184585-b6ab2095-04a2-47fd-b8d5-745d96427450.mp4
 
 
+https://user-images.githubusercontent.com/63820705/194185869-349a605c-7812-45cf-b4d2-e4d8a7d49efa.mp4
 
-<video src="https://user-images.githubusercontent.com/63820705/194171626-78015220-798f-4c49-a854-ab64dd61cfd2.mp4" ></video>
+
+
+
 
 
 ## About YOLOv7 Pose
