@@ -19,17 +19,7 @@ Visual Summary of the "On-Ground" Running Dataset is available [here](https://gi
 ![image](https://user-images.githubusercontent.com/63820705/194171924-2bcee893-4e12-4421-9d1b-1e9fc2fa35f7.png)
 
 
-https://user-images.githubusercontent.com/63820705/194184585-b6ab2095-04a2-47fd-b8d5-745d96427450.mp4
-
-
-https://user-images.githubusercontent.com/63820705/194185869-349a605c-7812-45cf-b4d2-e4d8a7d49efa.mp4
-
-
-
-https://user-images.githubusercontent.com/63820705/194186506-0c6dbad9-9ad2-42d0-8d0e-26b4da5d82c7.mp4
-
-
-
+https://user-images.githubusercontent.com/63820705/194187241-1c26c3d0-6119-4638-8914-0085f03a65b5.mp4
 
 
 
