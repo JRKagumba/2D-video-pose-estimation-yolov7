@@ -16,11 +16,8 @@ The project uses publicly available running footage found from YouTube. At the t
 
 Visual Summary of the "On-Ground" Running Dataset is available [here](https://github.com/JRKagumba/2D-video-pose-estimation-yolov7/blob/main/data/Dataset_Metrics.ipynb)
 
-https://user-images.githubusercontent.com/63820705/194187790-0d0f20b4-1065-4a1d-93b4-c4924ea0db4d.mp4
-
 
 https://user-images.githubusercontent.com/63820705/194652511-1cb2721d-6a5b-4c5c-a272-bcff6b5ce69d.mp4
-
 
 
 ## About YOLOv7 Pose
