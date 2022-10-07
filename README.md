@@ -19,6 +19,10 @@ Visual Summary of the "On-Ground" Running Dataset is available [here](https://gi
 https://user-images.githubusercontent.com/63820705/194187790-0d0f20b4-1065-4a1d-93b4-c4924ea0db4d.mp4
 
 
+https://user-images.githubusercontent.com/63820705/194652511-1cb2721d-6a5b-4c5c-a272-bcff6b5ce69d.mp4
+
+
+
 ## About YOLOv7 Pose
 
 "You Only Look Once" Pose Estimation
