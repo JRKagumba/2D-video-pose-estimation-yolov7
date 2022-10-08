@@ -16,7 +16,7 @@ In addition to gait analysis, this project aims to combine a previous project of
 
 The project uses publicly available running footage found from YouTube. At the time of writing this, the datasets consist of 29 treadmill running clips and 50 on ground running clips mainly filmed from a saggital view.  
 
-Visual Summary of the "On-Ground" Running Dataset is available [here](https://github.com/JRKagumba/2D-video-pose-estimation-yolov7/blob/main/data/Dataset_Metrics.ipynb)
+A visual quantitative summary of the "On-Ground" Running Dataset is available [here](https://github.com/JRKagumba/2D-video-pose-estimation-yolov7/blob/main/data/Dataset_Metrics.ipynb)
 
 
 https://user-images.githubusercontent.com/63820705/194652511-1cb2721d-6a5b-4c5c-a272-bcff6b5ce69d.mp4
