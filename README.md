@@ -4,6 +4,8 @@
 
 This project project is an attempt at a refined version of the [NFL Combine - 2D Video Running Analysis](https://github.com/JRKagumba/2D-video-based-running-analysis). There were issues with defining the specific subject to perform inference on within each frame of video. As well as issues with performing inference with OpenPose. This project aims to resolve both of these issues by using YOLOv7 Pose Estimation algorithm as well as video datasets with only 1 person running in each frame. 
 
+In addition to gait analysis, this project aims to combine a previous project of mine [Shoe Image Classification](https://github.com/JRKagumba/running-shoe-image-classifier-app) with gait analysis. The end goal is still slightly unclear at the time of writing this, but it may be have to do with correlating partucular gait patterns with shoe types and perhaps generating some sort of recommender system based on gait pattern and shoes.
+
 ## Goals
 
 1. Develop a working model
